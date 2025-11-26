@@ -1,6 +1,6 @@
 const TOTAL_SUPPLY = 600000000;
 const AIRDROP_PERCENTAGE = 0.075;
-const COST_PER_POINT = 0.001;
+const COST_PER_POINT = 0.0025;
 
 const FDV_SCENARIOS = [
     { fdv: 50000000, label: 'Bearish', class: 'bearish' },
