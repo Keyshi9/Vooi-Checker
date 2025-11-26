@@ -1,10 +1,11 @@
-const TOTAL_SUPPLY = 420000000;
+const TOTAL_SUPPLY = 600000000;
 const AIRDROP_PERCENTAGE = 0.075;
 const COST_PER_POINT = 0.001;
 
 const FDV_SCENARIOS = [
-    { fdv: 112500000, label: 'Bearish', class: 'bearish' },
-    { fdv: 300000000, label: 'Conservative', class: 'neutral' },
+    { fdv: 50000000, label: 'Bearish', class: 'bearish' },
+    { fdv: 112500000, label: 'Conservative', class: 'neutral' },
+    { fdv: 300000000, label: 'Moderate', class: 'neutral' },
     { fdv: 500000000, label: 'Base', class: 'neutral' },
     { fdv: 1000000000, label: 'Optimistic', class: 'bullish' },
     { fdv: 2500000000, label: 'Bullish', class: 'bullish' }
